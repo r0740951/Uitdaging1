@@ -1,1 +1,22 @@
 /* specifieke stijlregels voor 404-pagina */
+body {
+    background-color: #FFF;
+    color: #000;
+    background-image: url(../afbeeldingen/background2error404.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (min-width:600px) {
+    body {
+        background-color: #000;
+        color: #FFF;
+        background-image: url(../afbeeldingen/background1error404.jpg);
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: 'Oxygen', sans-serif;
+    }
+}
