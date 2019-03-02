@@ -1,2 +1,21 @@
 /* in tent.min.css wijzig je NIETS */
 /* schrijf in dit bestand je eigen stijlregels om opmaak te regelen die NIET via tent.min.css aangebracht kan worden */
+.white {
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.stripes {
+    background-image: url(../afbeeldingen/background1index.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.googlefont {
+    font-family: 'Libre Franklin', sans-serif;
+}
